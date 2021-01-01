@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #61dbfd;
+}
+
+#timer-display {
+  margin: 50px auto;
+}
+
+#break-label,
+#session-label {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 3em 0 1em 0;
+}
+
+#break-length,
+#session-length {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#timer-label,
+#time-left {
+  width: 100%;
+  text-align: center;
+}
+
+#timer-label {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#time-left {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.button-container {
+  width: 30em;
+  margin: 0 auto;
+}
+
+button {
+  width: 10em;
+  height: 6em;
+  margin: 1em;
+  border-radius: 2em;
+}
